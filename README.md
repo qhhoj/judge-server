@@ -147,7 +147,7 @@ to be placed under `/mnt/problems`, and judge-specific configuration to be in
 and will be merged automatically into the `judge.yml` provided.
 
 ```
-$ git clone --recursive https://github.com/DMOJ/judge-server.git
+$ git clone --recursive https://github.com/QHHOJ/judge-server.git
 $ cd judge-server/.docker
 $ make judge-tier1
 $ exec docker run \
